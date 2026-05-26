@@ -1,0 +1,33 @@
+{
+    "version": "0.1.0",
+    "paths": [
+        {
+            "name": "crates_io_dependency",
+            "title": "crates.io dependency adoption",
+            "description": "Use RustUse crates as ordinary Cargo dependencies from crates.io, with facade crates for broad domains and child crates for focused primitives.",
+            "maintenance_notes": [
+                "Prefer this path when users want normal semver updates and cargo-managed dependency resolution.",
+                "Facade crates should make useful feature-gated entry points without forcing full dependency surfaces."
+            ]
+        },
+        {
+            "name": "copy_and_own",
+            "title": "copy-and-own adoption",
+            "description": "Copy small RustUse primitives into an application or library, then own the local source like shadcn/ui-style code adoption.",
+            "maintenance_notes": [
+                "This works best for tiny primitives with clear tests and docs.",
+                "Optional rustuse.toml can record copied primitives and source versions.",
+                "Optional rustuse-lock.toml can track the exact copied source for future audits."
+            ]
+        },
+        {
+            "name": "cli_assisted",
+            "title": "CLI-assisted adoption via rustuse / cargo-rustuse",
+            "description": "Use a RustUse CLI flow to discover, select, copy, and maintain primitives from RustUse sets.",
+            "maintenance_notes": [
+                "The v0.1 MCP server only plans and validates; CLI mutation belongs to future RustUse tooling.",
+                "Future CLI flows can use rustuse.toml and rustuse-lock.toml to make copied code maintenance explicit."
+            ]
+        }
+    ]
+}

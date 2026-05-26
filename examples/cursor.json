@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "rustuse": {
+            "command": "/path/to/RustUse/git_local/mcp/target/release/rustuse-mcp-server",
+            "args": []
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "version": "0.1.0",
+    "rules": [
+        {
+            "id": "rust-edition-2024",
+            "title": "Use Rust edition 2024",
+            "severity": "required",
+            "guidance": "RustUse crates should use Rust edition 2024 and the workspace Rust toolchain baseline."
+        },
+        {
+            "id": "facade-reexports",
+            "title": "Facade crates primarily re-export child crates",
+            "severity": "required",
+            "guidance": "A use-* facade should organize and re-export focused child crates instead of holding most implementation."
+        },
+        {
+            "id": "child-implementation",
+            "title": "Child crates hold implementation",
+            "severity": "required",
+            "guidance": "Focused child crates should contain the primitive types, functions, tests, and examples for their domain."
+        },
+        {
+            "id": "primitive-utilities",
+            "title": "Prefer primitive utility crates",
+            "severity": "required",
+            "guidance": "RustUse favors small composable primitives over frameworks, platforms, or broad opinionated stacks."
+        },
+        {
+            "id": "few-dependencies",
+            "title": "Prefer few or no dependencies",
+            "severity": "recommended",
+            "guidance": "Use the standard library where practical and add dependencies only when they clearly improve correctness or maintenance."
+        },
+        {
+            "id": "dual-license",
+            "title": "Dual license MIT OR Apache-2.0",
+            "severity": "required",
+            "guidance": "RustUse workspaces and crates should use the dual license expression MIT OR Apache-2.0."
+        },
+        {
+            "id": "docs-tests-examples",
+            "title": "Ship docs, tests, and examples where appropriate",
+            "severity": "recommended",
+            "guidance": "Include README, CHANGELOG, rustdoc, tests, and examples at a level proportional to crate risk and scope."
+        },
+        {
+            "id": "crates-io-adoption",
+            "title": "Support crates.io dependency adoption",
+            "severity": "recommended",
+            "guidance": "Published RustUse crates should be usable as normal crates.io dependencies."
+        },
+        {
+            "id": "copy-and-own-adoption",
+            "title": "Support copy-and-own adoption",
+            "severity": "recommended",
+            "guidance": "Where small primitives are useful as source, preserve a path for users to copy and own code with attribution."
+        },
+        {
+            "id": "cli-assisted-adoption",
+            "title": "Support CLI-assisted adoption",
+            "severity": "recommended",
+            "guidance": "The rustuse and cargo-rustuse tools may eventually help users select, copy, and track RustUse primitives."
+        },
+        {
+            "id": "taxonomy-hygiene",
+            "title": "Avoid duplicate or crisscrossing taxonomy",
+            "severity": "required",
+            "guidance": "New sets and child crates should avoid colliding names, duplicated concepts, or overlapping ownership boundaries."
+        }
+    ]
+}

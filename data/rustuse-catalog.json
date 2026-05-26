@@ -1,0 +1,455 @@
+{
+    "version": "0.1.0",
+    "sets": [
+        {
+            "name": "use-math",
+            "kind": "facade",
+            "status": "active",
+            "description": "RustUse mathematics primitives and facade set.",
+            "repo_path": "../use-math",
+            "children": [
+                {
+                    "name": "use-arithmetic",
+                    "kind": "child",
+                    "description": "Arithmetic primitives."
+                },
+                {
+                    "name": "use-combinatorics",
+                    "kind": "child",
+                    "description": "Combinatorics utilities."
+                },
+                {
+                    "name": "use-number",
+                    "kind": "child",
+                    "description": "Number primitives."
+                },
+                {
+                    "name": "use-integer",
+                    "kind": "child",
+                    "description": "Integer utilities."
+                },
+                {
+                    "name": "use-modular",
+                    "kind": "child",
+                    "description": "Modular arithmetic utilities."
+                },
+                {
+                    "name": "use-prime",
+                    "kind": "child",
+                    "description": "Prime number utilities."
+                },
+                {
+                    "name": "use-polynomial",
+                    "kind": "child",
+                    "description": "Polynomial utilities."
+                },
+                {
+                    "name": "use-equation",
+                    "kind": "child",
+                    "description": "Equation utilities."
+                },
+                {
+                    "name": "use-numerical",
+                    "kind": "child",
+                    "description": "Numerical methods."
+                },
+                {
+                    "name": "use-rational",
+                    "kind": "child",
+                    "description": "Rational number utilities."
+                },
+                {
+                    "name": "use-real",
+                    "kind": "child",
+                    "description": "Real number utilities."
+                },
+                {
+                    "name": "use-interval",
+                    "kind": "child",
+                    "description": "Interval utilities."
+                },
+                {
+                    "name": "use-complex",
+                    "kind": "child",
+                    "description": "Complex number utilities."
+                },
+                {
+                    "name": "use-series",
+                    "kind": "child",
+                    "description": "Series utilities."
+                },
+                {
+                    "name": "use-catalan",
+                    "kind": "child",
+                    "description": "Catalan number utilities."
+                },
+                {
+                    "name": "use-collatz",
+                    "kind": "child",
+                    "description": "Collatz sequence utilities."
+                },
+                {
+                    "name": "use-geode",
+                    "kind": "child",
+                    "description": "Geode-style mathematical primitives."
+                },
+                {
+                    "name": "use-algebra",
+                    "kind": "child",
+                    "description": "Algebra utilities."
+                },
+                {
+                    "name": "use-matrix",
+                    "kind": "child",
+                    "description": "Matrix utilities."
+                },
+                {
+                    "name": "use-linear",
+                    "kind": "child",
+                    "description": "Linear algebra utilities."
+                },
+                {
+                    "name": "use-eigen",
+                    "kind": "child",
+                    "description": "Eigenvalue utilities."
+                },
+                {
+                    "name": "use-vector",
+                    "kind": "child",
+                    "description": "Vector utilities."
+                },
+                {
+                    "name": "use-calculus",
+                    "kind": "child",
+                    "description": "Calculus utilities."
+                },
+                {
+                    "name": "use-probability",
+                    "kind": "child",
+                    "description": "Probability utilities."
+                },
+                {
+                    "name": "use-statistics",
+                    "kind": "child",
+                    "description": "Statistics utilities."
+                },
+                {
+                    "name": "use-trigonometry",
+                    "kind": "child",
+                    "description": "Trigonometry utilities."
+                },
+                {
+                    "name": "use-logic",
+                    "kind": "child",
+                    "description": "Logic utilities."
+                },
+                {
+                    "name": "use-set",
+                    "kind": "child",
+                    "description": "Set utilities."
+                }
+            ],
+            "notes": [
+                "Facade crate re-exports focused mathematical child crates.",
+                "Workspace currently uses lockstep 0.x versioning."
+            ]
+        },
+        {
+            "name": "use-geometry",
+            "kind": "facade",
+            "status": "active",
+            "description": "RustUse geometry primitives and facade set.",
+            "repo_path": "../use-geometry",
+            "children": [
+                {
+                    "name": "use-coordinate",
+                    "kind": "child",
+                    "description": "Coordinate primitives."
+                },
+                {
+                    "name": "use-dimension",
+                    "kind": "child",
+                    "description": "Dimension primitives."
+                },
+                {
+                    "name": "use-angle",
+                    "kind": "child",
+                    "description": "Angle primitives."
+                },
+                {
+                    "name": "use-point",
+                    "kind": "child",
+                    "description": "Point primitives."
+                },
+                {
+                    "name": "use-bounds",
+                    "kind": "child",
+                    "description": "Bounds utilities."
+                },
+                {
+                    "name": "use-line",
+                    "kind": "child",
+                    "description": "Line utilities."
+                },
+                {
+                    "name": "use-ray",
+                    "kind": "child",
+                    "description": "Ray utilities."
+                },
+                {
+                    "name": "use-segment",
+                    "kind": "child",
+                    "description": "Segment utilities."
+                },
+                {
+                    "name": "use-plane",
+                    "kind": "child",
+                    "description": "Plane utilities."
+                },
+                {
+                    "name": "use-transform",
+                    "kind": "child",
+                    "description": "Transform utilities."
+                },
+                {
+                    "name": "use-distance",
+                    "kind": "child",
+                    "description": "Distance utilities."
+                },
+                {
+                    "name": "use-intersection",
+                    "kind": "child",
+                    "description": "Intersection utilities."
+                },
+                {
+                    "name": "use-circle",
+                    "kind": "child",
+                    "description": "Circle utilities."
+                },
+                {
+                    "name": "use-sphere",
+                    "kind": "child",
+                    "description": "Sphere utilities."
+                },
+                {
+                    "name": "use-polygon",
+                    "kind": "child",
+                    "description": "Polygon utilities."
+                },
+                {
+                    "name": "use-mesh",
+                    "kind": "child",
+                    "description": "Mesh utilities."
+                },
+                {
+                    "name": "use-hull",
+                    "kind": "child",
+                    "description": "Hull utilities."
+                },
+                {
+                    "name": "use-voronoi",
+                    "kind": "child",
+                    "description": "Voronoi utilities."
+                },
+                {
+                    "name": "use-delaunay",
+                    "kind": "child",
+                    "description": "Delaunay utilities."
+                },
+                {
+                    "name": "use-origami",
+                    "kind": "child",
+                    "description": "Origami geometry utilities."
+                }
+            ],
+            "notes": [
+                "Large facade set for shape, topology, and geometry primitives.",
+                "Child crates hold implementation; facade keeps the public routing surface."
+            ]
+        },
+        {
+            "name": "use-cli",
+            "kind": "facade",
+            "status": "active",
+            "description": "RustUse command-line interface primitives and facade set.",
+            "repo_path": "../use-cli",
+            "children": [
+                {
+                    "name": "use-arg",
+                    "kind": "child",
+                    "description": "Argument primitives."
+                },
+                {
+                    "name": "use-flag",
+                    "kind": "child",
+                    "description": "Flag primitives."
+                },
+                {
+                    "name": "use-option",
+                    "kind": "child",
+                    "description": "Option primitives."
+                },
+                {
+                    "name": "use-env-var",
+                    "kind": "child",
+                    "description": "Environment variable utilities."
+                },
+                {
+                    "name": "use-exit-code",
+                    "kind": "child",
+                    "description": "Exit code utilities."
+                },
+                {
+                    "name": "use-stdin",
+                    "kind": "child",
+                    "description": "Standard input utilities."
+                },
+                {
+                    "name": "use-stdout",
+                    "kind": "child",
+                    "description": "Standard output utilities."
+                },
+                {
+                    "name": "use-stderr",
+                    "kind": "child",
+                    "description": "Standard error utilities."
+                },
+                {
+                    "name": "use-prompt",
+                    "kind": "child",
+                    "description": "Prompt utilities."
+                },
+                {
+                    "name": "use-command-name",
+                    "kind": "child",
+                    "description": "Command name utilities."
+                },
+                {
+                    "name": "use-terminal",
+                    "kind": "child",
+                    "description": "Terminal utilities."
+                }
+            ],
+            "notes": [
+                "Small CLI primitives, not a command framework.",
+                "Useful reference for stdout/stderr separation in tooling."
+            ]
+        },
+        {
+            "name": "use-web",
+            "kind": "facade",
+            "status": "experimental",
+            "description": "RustUse web primitives and facade set.",
+            "repo_path": "../use-web",
+            "children": [
+                {
+                    "name": "use-http",
+                    "kind": "child",
+                    "description": "HTTP primitives."
+                },
+                {
+                    "name": "use-method",
+                    "kind": "child",
+                    "description": "HTTP method utilities."
+                },
+                {
+                    "name": "use-header",
+                    "kind": "child",
+                    "description": "HTTP header utilities."
+                },
+                {
+                    "name": "use-status",
+                    "kind": "child",
+                    "description": "HTTP status utilities."
+                },
+                {
+                    "name": "use-cookie",
+                    "kind": "child",
+                    "description": "Cookie utilities."
+                },
+                {
+                    "name": "use-mime",
+                    "kind": "child",
+                    "description": "MIME utilities."
+                },
+                {
+                    "name": "use-query",
+                    "kind": "child",
+                    "description": "Query string utilities."
+                },
+                {
+                    "name": "use-uri",
+                    "kind": "child",
+                    "description": "URI utilities."
+                },
+                {
+                    "name": "use-url",
+                    "kind": "child",
+                    "description": "URL utilities."
+                },
+                {
+                    "name": "use-origin",
+                    "kind": "child",
+                    "description": "Origin utilities."
+                },
+                {
+                    "name": "use-route",
+                    "kind": "child",
+                    "description": "Route utilities."
+                },
+                {
+                    "name": "use-html",
+                    "kind": "child",
+                    "description": "HTML utilities."
+                },
+                {
+                    "name": "use-web-css",
+                    "kind": "child",
+                    "description": "CSS utilities."
+                }
+            ],
+            "notes": [
+                "Feature-gated facade for small web primitives.",
+                "Avoids becoming a web framework."
+            ]
+        },
+        {
+            "name": "use-data",
+            "kind": "facade",
+            "status": "experimental",
+            "description": "RustUse data format primitives and facade set.",
+            "repo_path": "../use-data",
+            "children": [
+                {
+                    "name": "use-json",
+                    "kind": "child",
+                    "description": "JSON utilities."
+                },
+                {
+                    "name": "use-toml",
+                    "kind": "child",
+                    "description": "TOML utilities."
+                },
+                {
+                    "name": "use-yaml",
+                    "kind": "child",
+                    "description": "YAML utilities."
+                },
+                {
+                    "name": "use-csv",
+                    "kind": "child",
+                    "description": "CSV utilities."
+                },
+                {
+                    "name": "use-xml",
+                    "kind": "child",
+                    "description": "XML utilities."
+                }
+            ],
+            "notes": [
+                "Focused on format utilities rather than a database or analytics stack.",
+                "Good example of a compact facade set."
+            ]
+        }
+    ]
+}
